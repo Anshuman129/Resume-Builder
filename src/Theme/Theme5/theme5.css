@@ -1,0 +1,40 @@
+.theme5-container {
+  padding: 40px 50px;
+  font-family: 'Georgia', serif;
+  background-color: #ffffff;
+  color: #2d2d2d;
+}
+
+.theme5-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.theme5-subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #7d7d7d;
+  letter-spacing: 2px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .theme5-container {
+    padding: 20px;
+  }
+
+  .theme5-header h1 {
+    font-size: 22px;
+  }
+
+  .theme5-subtitle {
+    font-size: 13px;
+  }
+}
