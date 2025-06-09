@@ -104,18 +104,6 @@ const Theme5 = ({ componentRef, themeData }) => {
                             ))}
                         </List>
                     </Box>
-
-                    {/* Languages */}
-                    <Box {...sectionBoxStyle}>
-                        <Heading size="sm" mb={3}>
-                            Languages
-                        </Heading>
-                        <List spacing={1} fontSize="sm">
-                            {language?.split(",").map((lang, index) => (
-                                <ListItem key={index}>• {lang.trim()}</ListItem>
-                            ))}
-                        </List>
-                    </Box>
                 </VStack>
 
                 {/* Right Column */}
@@ -133,19 +121,26 @@ const Theme5 = ({ componentRef, themeData }) => {
                         <Heading size="sm" mb={3}>
                             Work Experience
                         </Heading>
-                        {Object.entries(workTitles).map(([key, title], index) => (
-                            <Box key={index} mt={3}>
-                                <Text fontWeight="bold">{title}</Text>
-                                <Text fontSize="sm" fontStyle="italic">
-                                    {workDesc[key]?.duration}
-                                </Text>
-                                <List spacing={1} fontSize="sm" mt={1}>
-                                    {workDesc[key]?.points?.map((desc, i) => (
-                                        <ListItem key={i}>• {desc}</ListItem>
-                                    ))}
-                                </List>
-                            </Box>
-                        ))}
+                        {
+                            Object.entries(workTitles).map((element, index) => {
+                                return (
+                                    <Box key={index} className="subBox">
+                                        <Text className='sub-title'>{element[1]}</Text>
+                                        <Box className='sub-details'>
+                                            {
+                                                (Object.entries(workDesc)[index] === undefined)
+                                                    ?
+                                                    null
+                                                    :
+                                                    Object.entries(workDesc)[index][1].split(',').map((element, index) => {
+                                                        return <li key={index}>{element}</li>
+                                                    })
+                                            }
+                                        </Box>
+                                    </Box>
+                                )
+                            })
+                        }
 
                     </Box>
                 </VStack>
