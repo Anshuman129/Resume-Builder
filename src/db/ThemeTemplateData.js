@@ -20,6 +20,11 @@ const ThemeTemplateData = [
         imageAlt: 'Theme5'
     },
     {
+        id: 'Theme6',
+        imageSrc: 'https://cdn.prod.website-files.com/62f3a8c764f6eb23f4252b13/67b6cb1f0620a4382b2a325a_Blue%20and%20Gray%20Simple%20Professional%20CV%20Resume%20.webp',
+        imageAlt: 'Theme6'
+    },
+    {
         id: 'Theme4',
         imageSrc: 'https://testanalytics-5e6e3.web.app/static/media/4.af60bc02.jpg',
         imageAlt: 'Theme4'
