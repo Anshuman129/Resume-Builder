@@ -25,6 +25,11 @@ const ThemeTemplateData = [
         imageAlt: 'Theme6'
     },
     {
+        id: 'Theme7',
+        imageSrc: 'https://i.pinimg.com/474x/93/15/43/9315436d1ce3bb8bb2f7426391bbef50.jpg',
+        imageAlt: 'Theme7'
+    },
+    {
         id: 'Theme4',
         imageSrc: 'https://testanalytics-5e6e3.web.app/static/media/4.af60bc02.jpg',
         imageAlt: 'Theme4'
