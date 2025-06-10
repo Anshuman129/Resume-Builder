@@ -1,0 +1,84 @@
+.theme7-main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  color: #222;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.theme7-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.theme7-header h1,
+.theme7-header h2 {
+  margin: 0;
+}
+
+.theme7-contact {
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.theme7-section {
+  margin-bottom: 35px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.theme7-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  background-color: #6a1b9a;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.theme7-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #6a1b9a;
+}
+
+.theme7-section p,
+.theme7-section li {
+  font-size: 14px;
+  color: #333;
+}
+
+.theme7-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.theme7-section li {
+  margin-bottom: 5px;
+}
+
+.theme7-section .chakra-text[font-weight="bold"] {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.theme7-section .chakra-text[font-size="sm"] {
+  font-size: 14px;
+  color: #555;
+}
+
+.theme7-section .chakra-list__item {
+  font-size: 14px;
+}
