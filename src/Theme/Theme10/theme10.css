@@ -1,0 +1,13 @@
+.theme10 {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  color: #000;
+}
+
+.theme10 h2 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
