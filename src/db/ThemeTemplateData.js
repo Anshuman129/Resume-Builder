@@ -31,17 +31,17 @@ const ThemeTemplateData = [
     },
     {
         id: 'Theme8',
-        imageSrc: 'https://writelatex.s3.amazonaws.com/published_ver/23504.jpeg?X-Amz-Expires=14400&X-Amz-Date=20250612T034714Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20250612/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=1a842b7fac34a601ccac93075b041109513657f61615b1074033a3d835f5e61c',
+        imageSrc: 'public\theme8.png',
         imageAlt: 'Theme8'
     },
     {
         id: 'Theme9',
-        imageSrc: 'https://writelatex.s3.amazonaws.com/published_ver/37501.jpeg?X-Amz-Expires=14400&X-Amz-Date=20250612T042142Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20250612/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e1ad32d5853e9eb0600ba52b9966327f833d72feb4d3ac1b8ba6d587d36a1d78',
+        imageSrc: 'public\theme9.png',
         imageAlt: 'Theme9'
     },
     {
         id: 'Theme10',
-        imageSrc: 'https://writelatex.s3.amazonaws.com/published_ver/16158.jpeg?X-Amz-Expires=14400&X-Amz-Date=20250612T055823Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20250612/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=72c83066f7c8b88b1a88bedfb8aa4f65c341d5ac8158a7d79c7e2c3d158fe5a4',
+        imageSrc: 'public\theme10.jpg',
         imageAlt: 'Theme10'
     },
     {
