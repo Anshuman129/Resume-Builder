@@ -1,3 +1,7 @@
+import theme8 from './../../src/Assets/theme8.png';
+import theme9 from './../../src/Assets/theme9.png';
+import theme10 from './../../src/Assets/theme10.jpg';
+
 const ThemeTemplateData = [
     {
         id: 'Theme1',
@@ -31,17 +35,17 @@ const ThemeTemplateData = [
     },
     {
         id: 'Theme8',
-        imageSrc: 'public\theme8.png',
+        imageSrc: theme8,
         imageAlt: 'Theme8'
     },
     {
         id: 'Theme9',
-        imageSrc: 'public\theme9.png',
+        imageSrc: theme9,
         imageAlt: 'Theme9'
     },
     {
         id: 'Theme10',
-        imageSrc: 'public\theme10.jpg',
+        imageSrc: theme10,
         imageAlt: 'Theme10'
     },
     {
