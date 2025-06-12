@@ -83,14 +83,22 @@ export default function Introduction() {
                             </>
                             :
                             <Heading
-                                m={'1.5'}
-                                textAlign={{ base: 'center', md: 'start' }}
+                                m="auto"
+                                mt={{ base: '10', md: 'auto' }}
+                                mb={{ base: '10', md: 'auto' }}
+                                textAlign="center"
                                 fontWeight={600}
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
-                                lineHeight={'110%'}>
-                                Select a {' '}
-                                <Text as={'span'} color={'#38B2AC'}>
-                                    Template {' '}
+                                lineHeight="110%"
+                                minH="100vh"
+                                display="flex"
+                                justifyContent="center"
+                                alignItems="center"
+                                flexDirection="column"
+                            >
+                                Select a{' '}
+                                <Text as="span" color="#38B2AC">
+                                    Template{' '}
                                 </Text>
                                 from the list
                             </Heading>
