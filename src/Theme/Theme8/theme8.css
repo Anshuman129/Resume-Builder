@@ -1,0 +1,18 @@
+#theme8 {
+  font-family: 'Georgia', serif;
+  color: #222;
+}
+
+.border {
+  height: 1px;
+  background-color: #ccc;
+}
+
+.sub-details {
+  padding-left: 20px;
+  font-size: 0.9rem;
+}
+
+.summary-text {
+  line-height: 1.5;
+}
